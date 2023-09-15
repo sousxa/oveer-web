@@ -1,0 +1,42 @@
+@import url("header.css");
+
+:root { 
+    --black-grey: #464655;
+    --green: #94958C;
+    --green-grey: #B7B6C0;
+    --grey-white: #D4CFE0; 
+    --pink-white: #EBDFEE;
+    --white: #FFFFFF;
+    --text: #252525;
+    --label: #757575;
+ }
+
+ body{ 
+    padding: 0;
+    margin: 0;
+ }
+
+ .tooltip {
+    position:relative;
+}
+
+ .tooltip:before {
+    content: attr(data-text);
+    position:absolute;
+    top: 150%;
+    transform:translateY(-50%);
+    left:-200%;
+    margin-left:15px;
+    width:80px;
+    padding:10px;
+    border-radius:0px;
+    background:var(--black-grey);
+    opacity: 0.9;
+    color: var(--white);
+    text-align:center;
+    display:none; 
+  }
+
+  .tooltip:hover:before {
+    display:block;
+  }

@@ -1,0 +1,15 @@
+header{
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+nav{ 
+    display: flex;
+    gap: 24px;
+}
+
+.hover-icon:hover{
+    cursor:  pointer;
+}
