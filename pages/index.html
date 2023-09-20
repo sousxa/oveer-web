@@ -4,61 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OVEER</title>
-</head>
-<body style="margin: 0; padding: 0; display: grid;">
-    <div style="border: 1px solid black; display: flex; justify-content: space-between; padding: 16px 48px;">
-        <img src="/img/OVEER.svg" alt="Home">
-        <nav style="display: flex; gap: 24px; ">
-            <div style="cursor: pointer;" data-text="Produtos">
-                <img src="/img/storefront.svg" alt="Products">
-            </div>
-            <div style="cursor: pointer;" data-text="Carrinho">
-                <img src="/img/shopping_cart.svg" alt="Cart">
-            </div>
-        </nav>
-    </div>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
 
-    <div style="padding: 24px">
-        <div style="border: 1px solid black; padding: 12px 48px 48px; ">
-            <h1 style="text-align: center;"><b><font face="Arial" size="8" color="252525">SALE!!</font></b></h1>
+</head>
+<body>
+    <header>
+        <h3 class="pointer menu-title"><a href="./index.html">OVEER</a></h3>
+        <nav>
+            <h4 class="pointer menu-op"><a href="#sale-box">Produtos</a></h4>
+            <h4 class="pointer menu-op"><a href="./cart.html">Carrinho</a></h4>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h1>Welcome</h1>
+        <p>Step into a world where fashion meets attitude, where style is an expression of your individuality, and where the streets become your runway.</p>
+        <a href="#sale-box"><button class="button-explore">Explore</button></a>
+    </section>
+
+    <section class="about-us">
+        <h2>About us</h2>
+        <p>OVEER was born from the beating heart of a dedicated group of friends, united by their passion for fashion and the desire to express the rich cultural diversity of Brazil through design, style, and innovation. We, a collective of creative minds hailing from different parts of Brazil, decided that it was time to combine our talents and create something truly special. Thus, OVEER came into being.
+            </p>
+    </section>
+
+    <main>
+        <section id="sale-box" class="sale-box">
+            <h1 style="text-align: center;">SALE!!</h1>
             <table align="center">
                 <tr> 
                     <td>
                         <div style="border: 1px solid black; padding: 16px; width: 290px;">
                             <img style="border: 1px solid rgba(0, 0, 0, 0.350);" src="/img/roupa1.png" alt="">
-                            <h3><b><font face="Arial" size="4" color="252525">T-shirt</font></b></h3>
-                            <p><font face="Arial" size="3" color="252525">Lorem ipsum dolor sit amet consectetur adipisicing elit.</font></p>
-                            <h3><b><font face="Arial" size="4" color="252525">$ 80</font></b></h3>
-                            <a href=".roupa1.html"><button style="width: 290px; cursor: pointer;"><h3><b><font face="Arial" size="4" color="252525">PURCHASE</font></b></h3></button></a>
+                            <h3>T-shirt</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h3>$ 80</h3>
+                            <a href="./roupa1.html"><button style="width: 290px; cursor: pointer;"><h3>PURCHASE</h3></button></a>
                         </td>
                         <td>ㅤㅤ</td>
                         <td>
                             <div style="border: 1px solid black; padding: 16px; width: 290px;">
                                 <img style="border: 1px solid rgba(0, 0, 0, 0.350);" src="/img/roupa2.png" alt="">
-                                <h3><b><font face="Arial" size="4" color="252525">T-shirt</font></b></h3>
-                                <p><font face="Arial" size="3" color="252525">Lorem ipsum dolor sit amet consectetur adipisicing elit.</font></p>
-                                <h3><b><font face="Arial" size="4" color="252525">$ 80</font></b></h3>
-                                <a href=".roupa2.html"><button style="width: 290px; cursor: pointer;"><h3><b><font face="Arial" size="4" color="252525">PURCHASE</font></b></h3></button></a>
+                                <h3>T-shirt</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3>$ 80</h3>
+                                <a href="./roupa2.html"><button style="width: 290px; cursor: pointer;"><h3>PURCHASE</h3></button></a>
                             </div>
                         </td>
                         <td>ㅤㅤ</td>
                         <td>
                             <div style="border: 1px solid black; padding: 16px; width: 290px;">
                                 <img style="border: 1px solid rgba(0, 0, 0, 0.350);" src="/img/roupa3.png" alt="">
-                                <h3><b><font face="Arial" size="4" color="252525">Sweatshirt</font></b></h3>
-                                <p><font face="Arial" size="3" color="252525">Lorem ipsum dolor sit amet consectetur adipisicing elit.</font></p>
-                                <h3><b><font face="Arial" size="4" color="252525">$ 80</font></b></h3>
-                                <a href=".roupa3.html"><button style="width: 290px; cursor: pointer;"><h3><b><font face="Arial" size="4" color="252525">PURCHASE</font></b></h3></button></a>
+                                <h3>Sweatshirt</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <h3>$ 80</h3>
+                                <a href="./roupa3.html"><button style="width: 290px; cursor: pointer;"><h3>PURCHASE</h3></button></a>
                             </div>
                         </td>
                     </div>
                 </tr>
             </table>
-        </div>
+        </section>
 
-    </div>
+    </main>
 
-    <div style="border: 1px solid red; padding: 2px;" ><p><b><font face="Arial" size="4" color="252525">Este é um exemplo de texto com estilo de fonte definido em HTML.</font></b></p></div>
+    <footer>
+        <p>© OVEER</p>
+    </footer>
 
 
     

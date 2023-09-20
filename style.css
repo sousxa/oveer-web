@@ -1,0 +1,213 @@
+:root{ 
+    --black: #252525;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{ 
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    border: 0.5px solid var(--black);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+    background-color: #252525;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+}
+
+.pointer{ 
+    cursor: pointer;
+}
+
+.sale-box{
+    padding: 0px 22px 22px;
+    border-top: 1px solid var(--black);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-op{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.menu-title{ 
+    font-size: 24px;
+    font-weight: 700;
+    font-style:italic;
+}
+
+main{
+    padding: 24px;
+}
+
+.welcome{ 
+    padding: 300px 24px;
+    display: grid;
+    justify-self: center;
+    text-align: center;
+    width: 1000px;
+    gap: 16px;
+}
+
+.welcome h1{ 
+    font-size: 128px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.welcome p{
+    word-wrap: break-word;
+}
+
+.button-explore{
+    padding: 12px 128px;
+}
+
+footer{
+    text-align: center;
+    background-color:var(--black);
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding:8px;
+}
+
+.about-us{
+    padding: 256px 24px;
+    margin: 0px 24px;
+    text-align: center;
+    gap: 16px;
+    border-top: 1px solid var(--black);
+}
+
+.page-cart{
+    display: grid;
+    justify-content: center;
+    padding: 128px 120px 120px 128px;
+    margin-top: 71px;
+}
+
+.box-containers{
+    background-color: #f6f6f6;
+    width: 1000px;
+    padding: 64px;
+    display: grid;
+    gap: 24px;
+}
+
+.container-rp{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #2525256b;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-rp img{
+    width: 128px;
+    border: 1px solid #2525256e;
+}
+
+.containers{
+    display: grid;
+    gap: 16px;
+}
+
+.desc h3, p{
+    margin: 0;
+    padding: 0;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+.button-cart{
+    width: 100%;
+    padding: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.money{
+    text-wrap: nowrap;
+}
+
+.page-p{
+    justify-content: center;
+    padding: 164px 128px 0px;
+    height: 903px;
+    box-sizing: border-box;
+}
+
+.box-p{
+    display: flex;
+    gap: 48px;
+}
+
+.box-p img{
+    border: 1px solid #25252569;
+}
+
+.desc-dt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-p{
+    padding: 12px 92px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-a{
+    width: 260px;
+}
+
+.page-c{
+    display: flex;
+    flex-direction: column;
+    padding: 353px 0px 0px 0px;
+    justify-self: center;
+    height: 550px;
+}
+
+.box-c{
+    text-align: center;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
